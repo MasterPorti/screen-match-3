@@ -3,6 +3,13 @@ package com.alura.screenmatch.modelos;
 import com.alura.screenmatch.calculos.Clasificable;
 
 public class Pelicula extends Titulo implements Clasificable {
+
+    public Pelicula(String nombre, int fechaDeLanzamiento) {
+        super(nombre, fechaDeLanzamiento);
+    }
+
+
+
     private String director;
 
     public String getDirector() {
